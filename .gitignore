@@ -1,0 +1,19 @@
+node_modules/
+.env
+backend/.venv/
+backend/data/
+backend/*.egg-info/
+__pycache__/
+.pytest_cache/
+frontend/dist/
+*.tsbuildinfo
+
+# OS and editor files
+.DS_Store
+.claude/
+.vscode/
+
+# Local data and secrets
+*.db
+*.db-wal
+*.db-shm

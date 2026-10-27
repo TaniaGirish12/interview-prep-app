@@ -1,0 +1,108 @@
+{
+ "status": "ready",
+ "content": {
+  "jd_id": "JD-T02",
+  "title": "Multi-threading in real-time systems",
+  "explanation": [
+   {
+    "level": "fundamentals",
+    "heading": "Threads",
+    "body_md": "A thread is \u2026"
+   },
+   {
+    "level": "intermediate",
+    "heading": "Mutexes",
+    "body_md": "Use std::mutex \u2026"
+   },
+   {
+    "level": "interview",
+    "heading": "Trade-offs",
+    "body_md": "Lock contention \u2026"
+   }
+  ],
+  "diagram": {
+   "kind": "sequenceDiagram",
+   "mermaid": "sequenceDiagram\n  A->>B: lock",
+   "description": "Thread A takes the lock before B."
+  },
+  "code_examples": [
+   {
+    "language": "python",
+    "title": "Queue",
+    "code": "import queue\n\nif __name__ == \"__main__\":\n    q = queue.Queue()\n    q.put(1)\n    print(q.get())\n",
+    "runnable": true,
+    "explanation": "e",
+    "jd_ids": [
+     "JD-T02"
+    ],
+    "check": {
+     "status": "verified",
+     "tool": "py_compile + Python 3.10 grammar",
+     "detail": null
+    }
+   },
+   {
+    "language": "python",
+    "title": "Broken",
+    "code": "def f(x):\n    pass\n",
+    "runnable": false,
+    "explanation": "e",
+    "jd_ids": [
+     "JD-T02"
+    ],
+    "check": {
+     "status": "verified",
+     "tool": "py_compile + Python 3.10 grammar",
+     "detail": null
+    }
+   }
+  ],
+  "common_mistakes": [
+   {
+    "text": "Holding a lock while doing I/O.",
+    "label": "prediction",
+    "jd_ids": [
+     "JD-T02"
+    ]
+   }
+  ],
+  "real_world_use": [
+   {
+    "text": "Sensor fusion threads.",
+    "label": "prediction",
+    "jd_ids": [
+     "JD-T02"
+    ]
+   }
+  ],
+  "likely_questions": [
+   {
+    "question": "Q0",
+    "model_answer": "At [YOUR COMPANY HERE] I \u2026",
+    "difficulty": "core",
+    "label": "prediction",
+    "jd_ids": [
+     "JD-T02"
+    ]
+   },
+   {
+    "question": "Q1",
+    "model_answer": "At [YOUR COMPANY HERE] I \u2026",
+    "difficulty": "core",
+    "label": "prediction",
+    "jd_ids": [
+     "JD-T02"
+    ]
+   },
+   {
+    "question": "Q2",
+    "model_answer": "At [YOUR COMPANY HERE] I \u2026",
+    "difficulty": "core",
+    "label": "prediction",
+    "jd_ids": [
+     "JD-T02"
+    ]
+   }
+  ]
+ }
+}

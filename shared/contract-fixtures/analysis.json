@@ -1,0 +1,401 @@
+{
+ "id": 1,
+ "status": "done",
+ "error": null,
+ "interview_date": "2026-10-27",
+ "interview_time": "15:00",
+ "hours_per_day": 2.0,
+ "schedule": {
+  "days_until": 4,
+  "hours_until": 87.1,
+  "past": false,
+  "study_days": 4,
+  "review_hours": 2.0,
+  "total_hours": 10.0
+ },
+ "created_at": "2026-10-23T21:52:48+00:00",
+ "model": "m",
+ "jd": {
+  "url": "u",
+  "title": null,
+  "company": null,
+  "source": "main-content"
+ },
+ "resume": {
+  "filename": "r.pdf"
+ },
+ "cost": {
+  "calls": 6,
+  "usd": 0.049,
+  "input": 7000,
+  "output": 3500,
+  "cache_read": 0,
+  "cache_write": 0
+ },
+ "backend": "api",
+ "gxx_available": true,
+ "result": {
+  "meta": {
+   "role_title": "Working Student / Intern - Driving Functions Software Development",
+   "company_name": "MBition",
+   "location": null,
+   "employment_type": "Working student"
+  },
+  "about_company": [
+   "MBition is bringing the automotive industry into the future by building a new generation of infotainment platform that is reusable and hardware agnostic"
+  ],
+  "jd_items": [
+   {
+    "category": "task",
+    "kind": "responsibility",
+    "name": "C++ components",
+    "quote": "Design, implement, and maintain software components in C++ and Java across embedded and application-level environments.",
+    "section": "Sneak preview of your future tasks",
+    "id": "JD-T01"
+   },
+   {
+    "category": "task",
+    "kind": "responsibility",
+    "name": "Multi-threading",
+    "quote": "Work in multi-threaded, real-time environments where performance, responsiveness, and thread safety matter.",
+    "section": "Sneak preview of your future tasks",
+    "id": "JD-T02"
+   },
+   {
+    "category": "task",
+    "kind": "responsibility",
+    "name": "Python tooling",
+    "quote": "Develop Python scripts and tools to automate development tasks, data processing, and workflow improvements.",
+    "section": "Sneak preview of your future tasks",
+    "id": "JD-T03"
+   },
+   {
+    "category": "requirement",
+    "kind": "language",
+    "name": "C++",
+    "quote": "C++ and Python are essential; experience with Java, Kotlin, or scripting languages is a strong plus.",
+    "section": "Your Profile",
+    "id": "JD-R01"
+   },
+   {
+    "category": "requirement",
+    "kind": "skill",
+    "name": "Concurrency",
+    "quote": "Concurrency awareness - You understand threads, synchronisation primitives (mutexes, semaphores, condition variables), and why concurrent programming requires careful design.",
+    "section": "Your Profile",
+    "id": "JD-R02"
+   },
+   {
+    "category": "nice_to_have",
+    "kind": "technology",
+    "name": "Android",
+    "quote": "Experience with Android application or system-level development (services, AIDL, NDK).",
+    "section": "Preferred experience and Skills:",
+    "id": "JD-N01"
+   }
+  ],
+  "skill_areas": [
+   "C++ & concurrency",
+   "Python & tooling",
+   "Platforms",
+   "Other"
+  ],
+  "rankings": {
+   "JD-T01": {
+    "jd_id": "JD-T01",
+    "tier": 1,
+    "reason": "appears in both tasks and profile",
+    "skill_area": "C++ & concurrency"
+   },
+   "JD-T02": {
+    "jd_id": "JD-T02",
+    "tier": 1,
+    "reason": "core of the role",
+    "skill_area": "C++ & concurrency"
+   },
+   "JD-T03": {
+    "jd_id": "JD-T03",
+    "tier": 2,
+    "reason": "explicit task",
+    "skill_area": "Python & tooling"
+   },
+   "JD-R01": {
+    "jd_id": "JD-R01",
+    "tier": 1,
+    "reason": "stated as essential",
+    "skill_area": "C++ & concurrency"
+   },
+   "JD-R02": {
+    "jd_id": "JD-R02",
+    "tier": 1,
+    "reason": "appears in tasks and profile",
+    "skill_area": "C++ & concurrency"
+   },
+   "JD-N01": {
+    "jd_id": "JD-N01",
+    "tier": 4,
+    "reason": "Not ranked by the model (default).",
+    "skill_area": "Other"
+   }
+  },
+  "cv_items": [
+   {
+    "category": "role",
+    "title": "Software Engineering Intern",
+    "context": "Acme Robotics",
+    "quote": "Software Engineering Intern, Acme Robotics (2024)",
+    "id": "CV-01"
+   },
+   {
+    "category": "achievement",
+    "title": "Thread-safe queue",
+    "context": "Acme Robotics",
+    "quote": "Implemented a thread-safe message queue in C++17 used by three sensor services.",
+    "id": "CV-02"
+   },
+   {
+    "category": "achievement",
+    "title": "Log analysis scripts",
+    "context": "Acme Robotics",
+    "quote": "Wrote Python scripts to automate log analysis, cutting triage time by 30%.",
+    "id": "CV-03"
+   },
+   {
+    "category": "skill",
+    "title": "C++",
+    "context": null,
+    "quote": "Languages: C++, Python, Java, TypeScript",
+    "id": "CV-04"
+   }
+  ],
+  "matches": {
+   "JD-T01": {
+    "jd_id": "JD-T01",
+    "status": "strong",
+    "evidence": [
+     {
+      "cv_id": "CV-02",
+      "quote": "Implemented a thread-safe message queue in C++17"
+     }
+    ],
+    "rationale": "Built C++17 components.",
+    "confidence": 0.9,
+    "downgraded": false
+   },
+   "JD-T02": {
+    "jd_id": "JD-T02",
+    "status": "gap",
+    "evidence": [],
+    "rationale": "Thread-safe queue.",
+    "confidence": 0.6,
+    "downgraded": true
+   },
+   "JD-T03": {
+    "jd_id": "JD-T03",
+    "status": "strong",
+    "evidence": [
+     {
+      "cv_id": "CV-03",
+      "quote": "Wrote Python scripts to automate log analysis"
+     }
+    ],
+    "rationale": "Python automation.",
+    "confidence": 0.95,
+    "downgraded": false
+   },
+   "JD-R01": {
+    "jd_id": "JD-R01",
+    "status": "strong",
+    "evidence": [
+     {
+      "cv_id": "CV-04",
+      "quote": "Languages: C++, Python"
+     }
+    ],
+    "rationale": "Lists both.",
+    "confidence": 0.8,
+    "downgraded": false
+   },
+   "JD-R02": {
+    "jd_id": "JD-R02",
+    "status": "partial",
+    "evidence": [
+     {
+      "cv_id": "CV-02",
+      "quote": "thread-safe message queue"
+     }
+    ],
+    "rationale": "Some threading.",
+    "confidence": 0.5,
+    "downgraded": false
+   },
+   "JD-N01": {
+    "jd_id": "JD-N01",
+    "status": "gap",
+    "evidence": [],
+    "rationale": "No Android.",
+    "confidence": 0.9,
+    "downgraded": false
+   }
+  },
+  "defaulted": {
+   "rank": [
+    "JD-N01"
+   ],
+   "match": []
+  },
+  "dropped": [
+   {
+    "step": "jd",
+    "reason": "quote not found in source",
+    "item": {
+     "category": "requirement",
+     "kind": "language",
+     "name": "Rust",
+     "quote": "Expert knowledge of Rust is required.",
+     "section": "Your Profile"
+    }
+   },
+   {
+    "step": "jd",
+    "reason": "quote not found in source",
+    "item": {
+     "value": "MBition is a fully remote-first company."
+    }
+   },
+   {
+    "step": "rank",
+    "reason": "unknown JD id JD-R09",
+    "item": {
+     "jd_id": "JD-R09",
+     "tier": 1,
+     "reason": "made up",
+     "skill_area": "Platforms"
+    }
+   },
+   {
+    "step": "resume",
+    "reason": "quote not found in source",
+    "item": {
+     "category": "role",
+     "title": "Team lead",
+     "context": "Google",
+     "quote": "Led a team of 12 engineers at Google."
+    }
+   },
+   {
+    "step": "matching",
+    "reason": "evidence quote is not part of CV-03",
+    "item": {
+     "jd_id": "JD-T02",
+     "cv_id": "CV-03",
+     "quote": "thread-safe message queue"
+    }
+   }
+  ],
+  "scores": {
+   "match_score": 65.0,
+   "radar": [
+    {
+     "area": "C++ & concurrency",
+     "score": 62.5,
+     "count": 4
+    },
+    {
+     "area": "Python & tooling",
+     "score": 100.0,
+     "count": 1
+    },
+    {
+     "area": "Other",
+     "score": 0.0,
+     "count": 1
+    }
+   ],
+   "tier_status": [
+    {
+     "tier": 1,
+     "strong": 2,
+     "partial": 1,
+     "gap": 1
+    },
+    {
+     "tier": 2,
+     "strong": 1,
+     "partial": 0,
+     "gap": 0
+    },
+    {
+     "tier": 3,
+     "strong": 0,
+     "partial": 0,
+     "gap": 0
+    },
+    {
+     "tier": 4,
+     "strong": 0,
+     "partial": 0,
+     "gap": 1
+    }
+   ],
+   "study_next": [
+    {
+     "jd_id": "JD-T02",
+     "name": "Multi-threading",
+     "tier": 1,
+     "status": "gap",
+     "confidence": 0.6,
+     "priority": 4.8
+    },
+    {
+     "jd_id": "JD-R02",
+     "name": "Concurrency",
+     "tier": 1,
+     "status": "partial",
+     "confidence": 0.5,
+     "priority": 2.5
+    },
+    {
+     "jd_id": "JD-N01",
+     "name": "Android",
+     "tier": 4,
+     "status": "gap",
+     "confidence": 0.9,
+     "priority": 1.05
+    },
+    {
+     "jd_id": "JD-R01",
+     "name": "C++",
+     "tier": 1,
+     "status": "strong",
+     "confidence": 0.8,
+     "priority": 0.0
+    },
+    {
+     "jd_id": "JD-T01",
+     "name": "C++ components",
+     "tier": 1,
+     "status": "strong",
+     "confidence": 0.9,
+     "priority": 0.0
+    },
+    {
+     "jd_id": "JD-T03",
+     "name": "Python tooling",
+     "tier": 2,
+     "status": "strong",
+     "confidence": 0.95,
+     "priority": 0.0
+    }
+   ]
+  },
+  "topics": {
+   "JD-T01": "not_started",
+   "JD-T02": "ready",
+   "JD-T03": "not_started",
+   "JD-R01": "not_started",
+   "JD-R02": "not_started",
+   "JD-N01": "not_started"
+  }
+ }
+}

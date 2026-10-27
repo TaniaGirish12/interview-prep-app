@@ -1,0 +1,175 @@
+{
+ "missing": [],
+ "needed_hours": 9.5,
+ "days": [
+  {
+   "date": "2026-10-23",
+   "interview_day": false,
+   "capacity_hours": 2.0,
+   "used_hours": 2.0,
+   "blocks": [
+    {
+     "id": "2026-10-23-JD-T02-learn-1",
+     "jd_id": "JD-T02",
+     "name": "Multi-threading",
+     "tier": 1,
+     "status": "gap",
+     "kind": "learn",
+     "hours": 2.0,
+     "label": "Learn: read the topic notes from fundamentals to interview level"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "interview_day": false,
+   "capacity_hours": 2.0,
+   "used_hours": 2.0,
+   "blocks": [
+    {
+     "id": "2026-10-24-JD-T02-learn-2",
+     "jd_id": "JD-T02",
+     "name": "Multi-threading",
+     "tier": 1,
+     "status": "gap",
+     "kind": "learn",
+     "hours": 0.5,
+     "label": "Learn: read the topic notes from fundamentals to interview level"
+    },
+    {
+     "id": "2026-10-24-JD-T02-practise-3",
+     "jd_id": "JD-T02",
+     "name": "Multi-threading",
+     "tier": 1,
+     "status": "gap",
+     "kind": "practise",
+     "hours": 1.5,
+     "label": "Practise: answer the likely questions out loud and work through the code examples"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-25",
+   "interview_day": false,
+   "capacity_hours": 2.0,
+   "used_hours": 2.0,
+   "blocks": [
+    {
+     "id": "2026-10-25-JD-R02-learn-4",
+     "jd_id": "JD-R02",
+     "name": "Concurrency",
+     "tier": 1,
+     "status": "partial",
+     "kind": "learn",
+     "hours": 1.0,
+     "label": "Learn: read the topic notes from fundamentals to interview level"
+    },
+    {
+     "id": "2026-10-25-JD-R02-practise-5",
+     "jd_id": "JD-R02",
+     "name": "Concurrency",
+     "tier": 1,
+     "status": "partial",
+     "kind": "practise",
+     "hours": 1.0,
+     "label": "Practise: answer the likely questions out loud and work through the code examples"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "interview_day": false,
+   "capacity_hours": 2.0,
+   "used_hours": 2.0,
+   "blocks": [
+    {
+     "id": "2026-10-26-JD-N01-learn-6",
+     "jd_id": "JD-N01",
+     "name": "Android",
+     "tier": 4,
+     "status": "gap",
+     "kind": "learn",
+     "hours": 0.5,
+     "label": "Learn: read the topic notes from fundamentals to interview level"
+    },
+    {
+     "id": "2026-10-26-JD-N01-practise-7",
+     "jd_id": "JD-N01",
+     "name": "Android",
+     "tier": 4,
+     "status": "gap",
+     "kind": "practise",
+     "hours": 0.5,
+     "label": "Practise: answer the likely questions out loud and work through the code examples"
+    },
+    {
+     "id": "2026-10-26-all-final-8",
+     "jd_id": null,
+     "name": "Tier 1 topics",
+     "tier": null,
+     "status": null,
+     "kind": "final",
+     "hours": 1.0,
+     "label": "Final review: answer the likely questions for every tier 1 topic out loud"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "interview_day": true,
+   "capacity_hours": 2.0,
+   "used_hours": 2.0,
+   "blocks": [
+    {
+     "id": "2026-10-27-all-final-9",
+     "jd_id": null,
+     "name": "Tier 1 topics",
+     "tier": null,
+     "status": null,
+     "kind": "final",
+     "hours": 2.0,
+     "label": "Warm-up: skim your tier 1 notes and rehearse two experience stories"
+    }
+   ]
+  }
+ ],
+ "unscheduled": [
+  {
+   "jd_id": "JD-R01",
+   "name": "C++",
+   "tier": 1,
+   "status": "strong",
+   "hours": 1.0
+  },
+  {
+   "jd_id": "JD-T01",
+   "name": "C++ components",
+   "tier": 1,
+   "status": "strong",
+   "hours": 1.0
+  },
+  {
+   "jd_id": "JD-T03",
+   "name": "Python tooling",
+   "tier": 2,
+   "status": "strong",
+   "hours": 0.5
+  }
+ ],
+ "available_hours": 10.0,
+ "scheduled_hours": 10.0,
+ "past": false,
+ "today": "2026-10-23",
+ "budget": {
+  "days_until": 4,
+  "hours_until": 87.1,
+  "past": false,
+  "study_days": 4,
+  "review_hours": 2.0,
+  "total_hours": 10.0
+ },
+ "uses_gap_plan": false,
+ "done_today": [],
+ "done_hours_total": 0,
+ "cards_due": {}
+}

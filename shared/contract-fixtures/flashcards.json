@@ -1,0 +1,77 @@
+{
+ "today": "2026-10-23",
+ "cards": [
+  {
+   "id": 1,
+   "jd_id": "JD-T02",
+   "kind": "concept",
+   "front": "What does a mutex guarantee?",
+   "back": "Mutual exclusion \u2026",
+   "label": "prediction",
+   "jd_ids": [
+    "JD-T02"
+   ],
+   "reps": 1,
+   "lapses": 0,
+   "interval_days": 1,
+   "due": "2026-10-24",
+   "last_grade": "good",
+   "is_new": false,
+   "is_due": false
+  },
+  {
+   "id": 2,
+   "jd_id": "JD-T02",
+   "kind": "question",
+   "front": "How do you avoid deadlock?",
+   "back": "Lock ordering \u2026",
+   "label": "prediction",
+   "jd_ids": [
+    "JD-T02",
+    "JD-R02"
+   ],
+   "reps": 0,
+   "lapses": 1,
+   "interval_days": 0,
+   "due": "2026-10-23",
+   "last_grade": "again",
+   "is_new": false,
+   "is_due": true
+  },
+  {
+   "id": 3,
+   "jd_id": "JD-T02",
+   "kind": "mistake",
+   "front": "Holding a lock during I/O?",
+   "back": "Blocks other threads \u2026",
+   "label": "prediction",
+   "jd_ids": [
+    "JD-T02"
+   ],
+   "reps": 1,
+   "lapses": 0,
+   "interval_days": 1,
+   "due": "2026-10-24",
+   "last_grade": "hard",
+   "is_new": false,
+   "is_due": false
+  }
+ ],
+ "topics": [
+  {
+   "jd_id": "JD-T02",
+   "name": "Multi-threading",
+   "tier": 1,
+   "total": 3,
+   "due": 1,
+   "new": 0
+  }
+ ],
+ "stats": {
+  "total": 3,
+  "new": 0,
+  "due": 1,
+  "learned": 2,
+  "next_due": "2026-10-24"
+ }
+}

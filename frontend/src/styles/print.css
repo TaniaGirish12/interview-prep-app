@@ -1,0 +1,13 @@
+/* Print stylesheet: Save as PDF from the browser gives clean notes. */
+@media print {
+  :root, .dark {
+    --bg: #fff; --surface: #fff; --surface-2: #f3f3f3; --border: #ccc;
+    --text: #000; --muted: #333;
+  }
+  body { background: #fff; }
+  .no-print, nav, button { display: none !important; }
+  .print-reveal { display: block !important; }
+  .card { break-inside: avoid; border-color: #ccc; }
+  a { color: inherit; text-decoration: none; }
+  pre { white-space: pre-wrap; }
+}
